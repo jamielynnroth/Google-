@@ -50,6 +50,19 @@ table {
 
 /* ************************* Navbar *************************** */
 
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.wrapper {
+	min-width: 700px;
+	min-height: 100%;
+	position: relative;
+}
+
+
 #nav ul li {display: inline;
 			padding: 0px 8px 0px 0px;
 			font-weight: bold;
@@ -122,19 +135,18 @@ table {
 
 /*logo*/
 
-#logo {
+.logo {
 	position: relative;
-	width: 30%;
-	height: 100px;
 	margin: 20px auto;
 	vertical-align: middle;
 	padding-top: 120px;
+	text-align: center;
 	}
 
-#logo img {
+/*#logo img {
 	margin-left: auto;
 	margin-right:auto;
-}
+}*/
 
 
 /*form*/
@@ -214,7 +226,8 @@ footer ul li {
 	display: inline;
 	padding-right: 10px;
 	margin: 0px;
-	text-align: right;}
+	text-align: right;
+	line-height: 30px;}
 
 footer {
 		width: 100%;
